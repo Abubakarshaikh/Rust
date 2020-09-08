@@ -3,7 +3,7 @@
 // qrcode = "0.12.0"
 // image = "0.23.9"
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Image generation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Image generation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 use qrcode::QrCode;
 use image::Luma;
 
@@ -22,7 +22,7 @@ fn main(){
     image_generation("string generation");
 }
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<< String generation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<< String generation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 use qrcode::QrCode;
 
 fn string_generation(string: &str){
@@ -37,7 +37,7 @@ fn main(){
     string_generation("hello");
 }
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<< SVG generation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<< SVG generation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 use qrcode::{QrCode, Version, EcLevel};
 use qrcode::render::svg;
 fn main(){
@@ -50,7 +50,7 @@ fn main(){
     println!("{}",image);
 }
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Unicode string generation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<< Unicode string generation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 use qrcode::QrCode;
 use qrcode::render::unicode;
 
