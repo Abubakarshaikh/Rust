@@ -1,0 +1,18 @@
+// copy
+
+fn main(){
+    let x = 5;
+    let y = x;
+    
+    println!("x = {}, y = {}", x, y);
+
+}
+
+// move
+fn main(){
+    let x = String::from("Hello, world");
+    let y = x; // x is move
+    // x is not valid 
+    
+    println!("x = {}, y = {}", x, y);
+}
